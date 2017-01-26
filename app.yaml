@@ -15,3 +15,6 @@ handlers:
 # Serve html as a static resource
 - url: /(.+\.html)$
   script: \1
+  
+ -url:/
+  script: index.html
